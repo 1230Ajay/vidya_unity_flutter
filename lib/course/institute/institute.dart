@@ -36,7 +36,7 @@ class _InstitutePageState extends State<InstitutePage> {
             builder: (context, state) {
           return SingleChildScrollView(
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 25),
+              padding: EdgeInsets.symmetric(horizontal: 24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
