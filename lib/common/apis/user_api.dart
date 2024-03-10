@@ -10,6 +10,7 @@ class UserAPI{
       path: 'auth/',
       data:params?.toJson()
     );
+    print(res);
   return UserLoginResponseEntity.fromJson(code: res.statusCode!, data: res.data);
   }
 

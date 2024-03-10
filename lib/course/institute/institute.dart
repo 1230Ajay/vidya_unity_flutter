@@ -42,7 +42,6 @@ class _InstitutePageState extends State<InstitutePage> {
                 children: [
                   Container(
                     height: 240.h,
-
                     child: Stack(
                       children: [
                         Container(
